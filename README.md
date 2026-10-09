@@ -2,9 +2,8 @@
 
 App Android de locação de carros feito em **Kotlin + Jetpack Compose**, com navegação entre telas (NavHost), barra de navegação inferior, listas reativas e telas de detalhes.
 
-> **Integrantes:** ⚠️ PREENCHER (nome de cada integrante do trio)
-> **Disciplina / Professor:** ⚠️ PREENCHER
-
+> **Integrantes:** Christofer Gabriel, Matheus Antoniele de Souza, Thyago Silva Guimarães
+> **Disciplina / Professor:** Des. de Aplicativos Móveis / Andre Luis Jeller Selleti
 ---
 
 ## 1. Como rodar o projeto

@@ -2,13 +2,11 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
 }
-
 android {
     namespace = "com.example.rentgo"
     compileSdk {
         version = release(37)
     }
-
     defaultConfig {
         applicationId = "com.example.rentgo"
         minSdk = 24
@@ -18,7 +16,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
     buildTypes {
         release {
             optimization {
@@ -34,7 +31,6 @@ android {
         compose = true
     }
 }
-
 dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
